@@ -38,8 +38,6 @@ class ViewController: UIViewController {
 		greenValueLabel.text = String(format: "%.0f", greenNumber)
 		blueValueLabel.text = String(format: "%.0f", blueNumber)
 		
-		print(redNumber, greenNumber, blueNumber)
-		
 		colorView.backgroundColor	= UIColor(red: redNumber/255, green: greenNumber/255, blue: blueNumber/255, alpha: 1.0)
 		
 		colorSliderTitleLabel.textColor	= UIColor(red: redNumber/255, green: greenNumber/255, blue: blueNumber/255, alpha: 1.0)

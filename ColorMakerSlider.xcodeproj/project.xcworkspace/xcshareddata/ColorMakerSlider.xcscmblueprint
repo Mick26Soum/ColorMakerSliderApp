@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5D3DC0417D9CE3E60D3A5021FA087F8281055D1D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5D3DC0417D9CE3E60D3A5021FA087F8281055D1D" : 9223372036854775807,
+    "A4C83BF64F9DE33C4DB8B7754F13355F08069267" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2F1A9C48-83C0-4D48-8B55-F7462CC9B160",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5D3DC0417D9CE3E60D3A5021FA087F8281055D1D" : "ColorMakerSlider\/",
+    "A4C83BF64F9DE33C4DB8B7754F13355F08069267" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ColorMakerSlider",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ColorMakerSlider.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Mick26Soum\/ColorMakerSliderApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5D3DC0417D9CE3E60D3A5021FA087F8281055D1D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Mick26Soum\/Click-Counter-Programmatically.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4C83BF64F9DE33C4DB8B7754F13355F08069267"
+    }
+  ]
+}
