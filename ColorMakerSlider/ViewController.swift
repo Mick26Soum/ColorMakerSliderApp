@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
 	
 	//Mark: Slider Outlets
-	
 	@IBOutlet weak var redSlider: UISlider!
 	@IBOutlet weak var greenSlider: UISlider!
 	@IBOutlet weak var blueSlider: UISlider!
@@ -20,7 +19,6 @@ class ViewController: UIViewController {
 	@IBOutlet weak var greenValueLabel: UILabel!
 	@IBOutlet weak var blueValueLabel: UILabel!
 	@IBOutlet weak var colorSliderTitleLabel: UILabel!
-	
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -28,7 +26,7 @@ class ViewController: UIViewController {
 
 	}
 	
-	@IBAction func changeColorComponent(){
+	@IBAction func changeColorComponent() {
 		
 		let redNumber = CGFloat(self.redSlider.value)
 		let greenNumber = CGFloat(self.greenSlider.value)
@@ -38,17 +36,21 @@ class ViewController: UIViewController {
 		greenValueLabel.text = String(format: "%.0f", greenNumber)
 		blueValueLabel.text = String(format: "%.0f", blueNumber)
 		
-		colorView.backgroundColor	= UIColor(red: redNumber/255, green: greenNumber/255, blue: blueNumber/255, alpha: 1.0)
+    colorView.backgroundColor	= UIColor(r: redNumber, g: greenNumber, b: blueNumber)
 		
-		colorSliderTitleLabel.textColor	= UIColor(red: redNumber/255, green: greenNumber/255, blue: blueNumber/255, alpha: 1.0)
-		
+		colorSliderTitleLabel.textColor	= UIColor(r: redNumber, g: greenNumber, b: blueNumber)
 		
 	}
-	
+  
+}
 
-
-
-
-
+//MARK: UIColor Extensions to remove redNumber/255
+extension UIColor {
+  
+  convenience init(r: CGFloat, g: CGFloat, b: CGFloat) {
+    self.init(red: r/255, green: g/255, blue: b/255, alpha: 1.0)
+    
+  }
+  
 }
 
